@@ -82,6 +82,14 @@ Very few people actually died, 1.4% of Korean females died However, 3% of Korean
 
 ## Inferential results 
 
+```{r}
+chisq.test(table2)
+chisqtestGC(table2)
+fisher.test(table2)
+```
+
+
+
 
 
 
